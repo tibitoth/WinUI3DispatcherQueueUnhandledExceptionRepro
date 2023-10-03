@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Window x:Class="WinUI3DispatcherQueueUnhandledExceptionRepro.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d">
+
+    <StackPanel HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Orientation="Vertical"
+                Spacing="20">
+        <TextBlock x:Name="textBlock" />
+        <Button Click="Throw_Click">Throw unhandled exception from DispatcherQueue</Button>
+        <Button Click="DontThrow_Click">Throw handled exception from DispatcherQueue</Button>
+    </StackPanel>
+</Window>

@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "WinUI3DispatcherQueueUnhandledExceptionRepro (Package)": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": true
+    },
+    "WinUI3DispatcherQueueUnhandledExceptionRepro (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
